@@ -622,7 +622,7 @@ span{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-top: 100px;
+  padding-top: 75px;
 }
 
 #mysql-img, #python-img, #java-img, #hc-img, #js-img, #cpp-img, #unix-img, #linux-img, #git-img, #github-img {
