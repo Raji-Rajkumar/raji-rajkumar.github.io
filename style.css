@@ -683,75 +683,40 @@ span{
   margin-bottom: 1%;
 }
 
-#portfolio-text {
-
-  position: relative;
-  left: 50px;
+#project-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.port-img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 10%;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-
-}
-
-.container {
-  position: relative;
-  width: 70vmin;
-  border-radius: 10%;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.container:hover .port-img {
-  opacity: 0.4;
-  filter: brightness(10%);
-}
-
-.link{
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.link p {
-  margin-left: 10px;
-  font-size: 3vmin;
-}
-
-.link h4 {
+.project-text h4 {
+  text-align: center;
   color: white;
    font-family: 'Amatic SC', cursive;
   font-size: 5vmin;
-  margin: 0 auto;
-  padding-left: 4%;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
-.link a {
+.project-text p {
+  font-size: 2.8vmin;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+.project-text {
+  width: 25%;
+  height: auto;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.project-text a {
   text-decoration: none;
   color: #BF4D18;
   font-weight: bold;
 }
-
 
 /************
 Resume
