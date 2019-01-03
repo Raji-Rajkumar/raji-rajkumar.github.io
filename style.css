@@ -612,8 +612,8 @@ span{
 
 
 #languages-img img{
-  width: 25vmin;
-  height: 25vmin;
+  width: 20vmin;
+  height: 20vmin;
   object-fit: scale-down;
 
 }
@@ -622,7 +622,7 @@ span{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 #mysql-img, #python-img, #java-img, #hc-img, #js-img, #cpp-img, #unix-img, #linux-img, #git-img, #github-img {
