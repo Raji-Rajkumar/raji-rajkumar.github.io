@@ -1,0 +1,786 @@
+/******************
+General Page Stuff
+******************/
+
+
+html {
+
+  overflow-x: hidden;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+
+
+
+
+}
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+ color: white;
+}
+
+#page-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+
+}
+
+/**************************
+         Intro
+***************************/
+
+.intro {
+    /* The image used */
+    background-image: url("https://preview.ibb.co/nrATMy/scrapps.jpg");
+    width: 100%;
+
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+}
+
+#myName {
+   color: white;
+   font-family: 'Amatic SC', cursive;
+  font-size: 10vmin;
+  text-align: center;
+  z-index: 999;
+background-color:rgba(0,0,0,0.3);
+
+  border-radius: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+  width: max-content;
+  margin: 0 auto;
+
+}
+
+/**********************
+       Header (sticky)
+***********************/
+
+
+
+
+#header{
+
+
+
+  background: black;
+  z-index: 99;
+  transition: 0.9s;
+   height: 80px;
+/*   padding-top: 9px;
+  padding-bottom:9px; */
+
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+
+
+
+/******************
+  Dropdown Content
+******************/
+
+#dropdown{
+  position: relative;
+}
+
+
+/************
+  Dropdown Icon
+*************/
+
+#dropdown-icon{
+   padding-right: 100px;
+  color: white;
+  font-size: 250%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+
+}
+
+#dropdown-icon i {
+  cursor: pointer;
+}
+
+
+
+
+/******************
+    Dropdown Menu
+******************/
+.sidenav{
+    display: none;
+    background-color: #111;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    position: static;
+    top: 500px;
+    min-width: 250px;
+    float: right;
+    text-align: center;
+    right: 0%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+
+.sidenav a {
+    padding: 10% 5% 10% 15%;
+    text-decoration: none;
+    font-size: 150%;
+    color: white;
+    display: block;
+    transition: 0.5s;
+    text-align: center;
+    border-bottom: 1px solid #262626;
+    background-color: black;
+
+}
+
+#aboutBtn {
+  padding-top: 18%;
+}
+
+#aboutBtn:hover, #languagesBtn:hover, #experienceBtn:hover, #projectBtn:hover, #resumeBtn:hover  {
+  color: #BF4D18;  /* color of background on hover */
+
+}
+
+/***************
+  About Section
+***************/
+
+#about {
+  background-color:  #262626;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+/*   overflow: hidden; */
+
+
+}
+
+#about-header {
+  color: white;
+   font-family: 'Amatic SC', cursive;
+  font-size: 8vmin;
+  margin: 0 auto;
+  padding-left: 4%;
+}
+
+#about-hr {
+  background-color: #BF4D18;
+  margin-top: 3%;
+  height: 2px;
+  margin-left: 8px;
+  border: 0;
+  width: 15vmin;
+  margin-bottom: 3%;
+}
+
+#about-text {
+  color: white;
+padding-left: 4.5%;
+  width: 50%;
+  font-size: 3vmin;
+}
+
+#about-image {
+ width: 100vmin;
+  height: 100vmin;
+  position: relative;
+  right: 20%;
+  top: 40%;
+  z-index: 1;
+
+}
+
+#about-image img{
+  width: 45vmin;
+  height: 45vmin;
+  z-index: 1;
+}
+
+.slide {
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showing {
+  opacity: 1;
+  z-index: 2;
+}
+
+ #slides {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+/***********************
+Professional Experience
+***********************/
+#experience {
+    /* The image used */
+    background-image: url("https://preview.ibb.co/jdVrby/girlswhocode.jpg");
+    width: 100%;
+
+    /* Full height */
+    height: auto;
+
+  padding-top: 5%;
+/*   overflow: hidden; */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#exp-header {
+/*   text-align: left; */
+  color: white;
+   font-family: 'Amatic SC', cursive;
+  font-size: 8vmin;
+  margin: 0 auto;
+  background-color:rgba(191, 77, 24, 0.1);
+  width: max-content;
+}
+
+#exp-hr {
+
+  background-color: #BF4D18;
+  margin-top: 1%;
+  height: 2px;
+  display: flex;
+
+  border: 0;
+  width: 38vmin;
+  margin-bottom: 1%;
+}
+
+/************
+  Timeline
+************/
+
+.timeline {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 1em 0;
+  list-style-type: none;
+  max-height: 100%;
+}
+
+.timeline:before {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  content: ' ';
+  display: block;
+  width: 6px;
+  height: 100%;
+  margin-left: -3px;
+  background: rgb(80,80,80);
+  background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+  background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+
+  z-index: 5;
+}
+
+.timeline li {
+  padding: 1em 0;
+}
+
+.timeline li:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.direction-l {
+  position: relative;
+  width: 420px;
+  float: left;
+  text-align: right;
+}
+
+.direction-r {
+  position: relative;
+  width: 420px;
+  float: right;
+}
+
+.flag-wrapper {
+  position: relative;
+  display: inline-block;
+
+  text-align: center;
+}
+
+.flag {
+  position: relative;
+  display: inline;
+  background: rgba(0,0,0,0.5);
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 3.5vmin;
+  font-weight: 800;
+  text-align: left;
+}
+
+.direction-l .flag {
+  -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+
+.direction-r .flag {
+  -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+
+.direction-l .flag:before,
+.direction-r .flag:before {
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  content: ' ';
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-top: -10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 4px solid #bf4d18;
+  z-index: 10;
+}
+
+.direction-r .flag:before {
+  left: -40px;
+}
+
+.direction-l .flag:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+  border: solid transparent;
+  border-left-color: rgba(0,0,0,0.5);
+  border-width: 8px;
+  pointer-events: none;
+}
+
+.direction-r .flag:after {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+  border: solid transparent;
+  border-right-color: rgba(0,0,0,0.5);
+  border-width: 8px;
+  pointer-events: none;
+}
+
+.time-wrapper {
+  display: inline;
+
+  line-height: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #BF4D18;
+  vertical-align: middle;
+}
+
+.direction-l .time-wrapper {
+  float: left;
+}
+
+.direction-r .time-wrapper {
+  float: right;
+}
+
+.time {
+  display: inline-block;
+  padding: 4px 6px;
+  background: rgb(248,248,248);
+}
+
+.desc {
+  margin: 1em 0.75em 0 0;
+  background: rgba(0,0,0,0.5);
+  font-size: 2.5vmin;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+.direction-r .desc {
+  margin: 1em 0 0 0.75em;
+}
+
+span{
+  font-family: 'Amatic SC', cursive;
+}
+
+
+
+/* ================ Timeline Media Queries ================ */
+
+@media screen and (max-width: 1000px) {
+
+.timeline {
+ 	width: 100%;
+	padding: 4em 0 1em 0;
+}
+
+.timeline li {
+	padding: 2em 0;
+}
+
+.direction-l,
+.direction-r {
+	float: none;
+	width: 100%;
+
+	text-align: center;
+}
+
+.flag-wrapper {
+	text-align: center;
+}
+
+.flag {
+	background: rgba(0,0,0,0.5);
+	z-index: 15;
+}
+
+.direction-l .flag:before,
+.direction-r .flag:before {
+  position: absolute;
+  top: -30px;
+	left: 50%;
+	content: ' ';
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin-left: -9px;
+	background: #fff;
+	border-radius: 10px;
+	border: 4px solid #bf4d18;
+	z-index: 10;
+}
+
+.direction-l .flag:after,
+.direction-r .flag:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: -8px;
+	height: 0;
+	width: 0;
+	margin-left: -8px;
+	border: solid transparent;
+	border-bottom-color: rgba(0,0,0,0.5);
+	border-width: 8px;
+	pointer-events: none;
+}
+
+.time-wrapper {
+	display: block;
+	position: relative;
+	margin: 4px 0 0 0;
+	z-index: 14;
+}
+
+.direction-l .time-wrapper {
+	float: none;
+}
+
+.direction-r .time-wrapper {
+	float: none;
+}
+
+.desc {
+	position: relative;
+	margin: 1em 0 0 0;
+	padding: 1em;
+	background: rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+	box-shadow: 0 0 1px rgba(0,0,0,0.20);
+
+  z-index: 15;
+}
+
+.direction-l .desc,
+.direction-r .desc {
+	position: relative;
+	margin: 1em 1em 0 1em;
+	padding: 1em;
+
+  z-index: 15;
+}
+
+}
+
+/************
+  LANGUAGES
+***********/
+#languages {
+  background-color:  #262626;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+
+/*   overflow: hidden; */
+
+
+}
+
+#lang-head {
+  color: white;
+   font-family: 'Amatic SC', cursive;
+  font-size: 8vmin;
+  padding-top: 90px;
+  margin: 0;
+  padding-left: 4%;
+}
+
+#lang-hr {
+  background-color: #BF4D18;
+  margin-top: 3%;
+  height: 2px;
+  margin-left: 8px;
+  border: 0;
+  width: 15vmin;
+  margin-bottom: 3%;
+}
+
+
+#languages-img img{
+  width: 25vmin;
+  height: 25vmin;
+  object-fit: scale-down;
+
+}
+
+#languages-img {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 150px;
+}
+
+#python-img, #java-img, #hc-img, #js-img, #cpp-img {
+  transition: transform .2s;
+  z-index: 1;
+}
+
+#python-img:hover, #java-img:hover, #hc-img:hover, #js-img:hover, #cpp-img:hover {
+  transform: scale(2);
+  z-index: 2;
+}
+
+
+/************
+ Projects
+***********/
+#projects {
+    /* The image used */
+    background-image: url("https://preview.ibb.co/dnopid/laptop.jpg");
+    width: 100%;
+
+    /* Full height */
+    height: 100%;
+
+  padding-top: 5%;
+/*   overflow: hidden; */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#project-head{
+  text-align: center;
+  color: white;
+   font-family: 'Amatic SC', cursive;
+  font-size: 8vmin;
+  margin: 0 auto;
+  background-color:rgba(191, 77, 24, 0.2);
+  width: max-content;
+}
+
+#project-hr {
+
+  background-color: #BF4D18;
+  margin-top: 3%;
+  height: 2px;
+  display: flex;
+
+  border: 0;
+  width: 18vmin;
+  margin-bottom: 1%;
+}
+
+#portfolio-text {
+
+  position: relative;
+  left: 50px;
+}
+
+.port-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+
+}
+
+.container {
+  position: relative;
+  width: 70vmin;
+  border-radius: 10%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container:hover .port-img {
+  opacity: 0.4;
+  filter: brightness(10%);
+}
+
+.link{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.link p {
+  margin-left: 10px;
+  font-size: 3vmin;
+}
+
+.link h4 {
+  color: white;
+   font-family: 'Amatic SC', cursive;
+  font-size: 5vmin;
+  margin: 0 auto;
+  padding-left: 4%;
+}
+
+.link a {
+  text-decoration: none;
+  color: #BF4D18;
+  font-weight: bold;
+}
+
+
+/************
+Resume
+***********/
+#resume {
+  background-color:  black;
+  background-size: cover;
+  height: 20%;
+  width: 100%;
+
+
+}
+
+#resume p {
+  margin: 0 auto;
+  padding-top: 5%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 300%;
+  font-weight: bold;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+#resume p i {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+#resume p i:hover {
+  color:rgb(191, 77, 24);
+}

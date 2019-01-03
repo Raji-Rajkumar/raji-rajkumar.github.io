@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rajasri Rajkumar</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <!--   font links   -->
+     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+
+<!--    page wrapper  -->
+     <div id="page-wrapper" >
+
+<!-- INTRO -->
+       <section class="intro">
+
+         <h1 id="myName">
+           Rajasri Velasoor Rajkumar
+         </h1>
+
+
+
+       </section> <!-- end intro section -->
+
+
+
+<!--    HEADER     -->
+
+
+       <div style="height:80px">
+       <section id="header">
+
+         <div id="header-div">
+
+
+         <div id="icon-wrapper">
+          <div id="dropdown-icon">
+          <i class="fas fa-bars" onclick="openNav()"></i>
+         </div> <!-- end dropdown icon -->
+         </div> <!-- icon wrapper -->
+          </div> <!-- end header div -->
+
+
+       <div style="z-index:3000; position:absolute; right:0;">
+
+
+       <div id="mySidenav" class="sidenav" style="z-index:1000;">
+
+              <a href="#about" id="aboutBtn">About Me</a>
+              <a href="#experience" id="experienceBtn">Experience</a>
+              <a href="#languages" id="languagesBtn">Languages</a>
+              <a href="#projects" id="projectBtn">Projects</a>
+              <a href="#resume" id="resumeBtn" onclick="scroll()">Resume</a>
+
+            </div> <!-- end side nav -->
+         </div> <!-- end unnamed div tag 1 -->
+        </section> <!-- end header section -->
+    </div> <!-- end unnamed div tag 2 -->
+
+
+
+
+       <!-- ABOUT -->
+       <section id="about">
+
+        <div id="about-content">
+         <h1 id="about-header">
+        Hello, World
+        <hr id="about-hr">
+         </h1>
+
+         <p id="about-text">
+           I am a rising sophomore at Scripps College and am currently majoring in computer science  through Harvey Mudd College and minoring in mathematics.
+        <br> <br>
+        As a CS major and a student at a womens college, I am passionate about equalizing the platform between men and women in computer science. I am an
+        active member of the Scripps Code club and thoroughly enjoyed my time as a teaching assistant for Girls Who Code, a non-profit organization dedicated
+        to bringing more women into technology.
+        <br> <br>
+        When I'm not in front of a computer screen, you'll probably find me jamming with my a capella group or planning my next big trip.
+         </p> <!-- end about text -->
+
+         </div> <!-- end about content -->
+
+         <div id="about-image">
+
+         <ul id="slides">
+          <li class="slide showing"><img src="https://image.ibb.co/mDLXGy/harveymudd.png" alt="harveymudd"></li>
+          <li class="slide"><img class="abt" src="https://image.ibb.co/da8Dbo/scripps.png" alt="scripps"></li>
+          <li class="slide"><img class="abt" src="https://preview.ibb.co/dJoPhT/coding.jpg" alt="coding"></li>
+          <li class="slide"><img class="abt" src="https://image.ibb.co/km9KGo/music.jpg" alt="music"></li>
+
+        </ul>
+
+          </div> <!-- end about image -->
+       </section> <!-- end about section -->
+
+       <!-- PROFESSIONAL EXPERIENCE -->
+
+       <section id="experience">
+        <h1 id="exp-header">
+        Professional Experience
+         </h1>
+         <hr id="exp-hr" align="center">
+
+<!--     Timeline     -->
+         <ul class="timeline">
+
+	<!-- Item 1 -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Girls Who Code teaching assistant</span>
+				<span class="time-wrapper"><span class="time">Jun. - Jul. 2018</span></span>
+			</div>
+			<div class="desc"> Co-taught the Introduction to Computer Science (in scratch) and Web Design and Development (in HTML, CSS, and JavaScript) courses
+         and effectively addressed students’ challenges and questions, so as to ensure all students were engaged and actively learning course material.</div>
+		</div>
+	</li>
+
+	<!-- Item 2 -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Calculus 3 Grader</span>
+				<span class="time-wrapper"><span class="time">Jan. - May 2018</span></span>
+			</div>
+			<div class="desc">Evaluated multivariable and vector calculus problems by level of difficulty in order to assign point values to the problems and graded homework problems based on this point value system.</div>
+		</div>
+	</li>
+
+	<!-- Item 3 -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Math Tutor</span>
+				<span class="time-wrapper"><span class="time">2014 - 2016</span></span>
+			</div>
+			<div class="desc">Scholastically mentored my peers and tutored them in Algebra 2 and Pre-Calculus on a weekly basis.</div>
+		</div>
+	</li>
+
+</ul>
+
+
+       </section> <!-- end experience section -->
+
+       <!-- lANGUAGES -->
+
+       <section id="languages">
+
+
+
+        <h1 id="lang-head">
+          Programming Languages
+          <hr id="lang-hr">
+        </h1>
+
+        <div id="languages-img">
+        <img src="https://image.ibb.co/itV9Go/python.png" alt="python" id="python-img">
+        <img src="https://preview.ibb.co/kWc0NT/java.jpg" alt="java" id="java-img">
+        <img src="https://preview.ibb.co/nibS2T/htmlandcss.png" alt="htmlandcss" id="hc-img">
+        <img src="https://image.ibb.co/bBp3bo/javascript.png" alt="javascript" id="js-img">
+        <img src="https://preview.ibb.co/d5PVNT/cpp.png" alt="c++" id="cpp-img">
+      </div> <!-- end languages image -->
+
+
+       </section> <!-- end languages section -->
+
+       <section id="projects">
+        <h1 id="project-head">
+          Projects
+
+        </h1>
+         <hr id="project-hr">
+
+          <div id="portfolio-text">
+      <div class="container">
+      <img src="https://preview.ibb.co/fzE9Gy/Capture.jpg" alt="portfolio" class="port-img">
+      <div class="overlay">
+        <div class="link">
+          <h4>
+            This Site!
+          </h4>
+        <p>
+           A portfolio website made using basic knowledge of CSS, JavaScript, and HTML. To check out the code, click <a target="_blank" href="https://glitch.com/edit/#!/portfolio-website-rvr2"> here!</a>
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+       </section> <!-- end project section -->
+
+       <section id="resume">
+         <p>
+           Resume <a target="_blank" href="https://cdn.glitch.com/600ae873-8341-49d5-84ac-73c6c3bcd60d%2FRajasri%20Rajkumar-%20Resume.pdf?1537483137054"> <i class="far fa-file-pdf"></i></a>
+         </p>
+       </section>
+    </div> <!-- end page wrapper -->
+
+  </body>
+</html>
