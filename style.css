@@ -625,36 +625,18 @@ span{
   padding-top: 150px;
 }
 
-/* #mysql-img, #python-img, #java-img, #hc-img, #js-img, #cpp-img {
-  transition: transform .2s;
-  z-index: 1;
-} */
-
-/* #mysql-img {
-  transition: transform .2s;
-  z-index: 1;
-} */
-
-#python-img {
+#mysql-img, #python-img, #java-img, #hc-img, #js-img, #cpp-img {
   transition: transform .2s;
   z-index: 1;
 }
 
 
-/* #mysql-img:hover, #python-img:hover, #java-img:hover, #hc-img:hover, #js-img:hover, #cpp-img:hover {
-  transform: scale(2);
-  z-index: 2;
-} */
-
-/* #mysql-img:hover {
-  transform: scale(2);
-  z-index: 2;
-} */
-
-#python-img:hover {
+#mysql-img:hover, #python-img:hover, #java-img:hover, #hc-img:hover, #js-img:hover, #cpp-img:hover {
   transform: scale(2);
   z-index: 2;
 }
+
+
 
 
 /************
