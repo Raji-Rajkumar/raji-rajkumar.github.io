@@ -612,8 +612,8 @@ span{
 
 
 #languages-img img{
-  width: 25vmin;
-  height: 25vmin;
+  width: 23vmin;
+  height: 23vmin;
   object-fit: scale-down;
 
 }
@@ -622,16 +622,16 @@ span{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-top: 150px;
+  padding-top: 75px;
 }
 
-#mysql-img, #python-img, #java-img, #hc-img, #js-img, #cpp-img {
+#mysql-img, #python-img, #java-img, #hc-img, #js-img, #cpp-img, #unix-img, #linux-img, #git-img, #github-img {
   transition: transform .2s;
   z-index: 1;
 }
 
 
-#mysql-img:hover, #python-img:hover, #java-img:hover, #hc-img:hover, #js-img:hover, #cpp-img:hover {
+#mysql-img:hover, #python-img:hover, #java-img:hover, #hc-img:hover, #js-img:hover, #cpp-img:hover, #unix-img:hover, #linux-img:hover, #git-img:hover, #github-img:hover  {
   transform: scale(2);
   z-index: 2;
 }
