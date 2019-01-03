@@ -625,7 +625,7 @@ span{
   padding-top: 150px;
 }
 
-#python-img, #java-img, #hc-img, #js-img, #cpp-img #mysql-img {
+#python-img, #java-img, #hc-img, #js-img, #cpp-img, #mysql-img {
   transition: transform .2s;
   z-index: 1;
 }
