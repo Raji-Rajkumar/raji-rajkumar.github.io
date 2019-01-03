@@ -630,10 +630,10 @@ span{
   z-index: 1;
 } */
 
-#mysql-img {
+/* #mysql-img {
   transition: transform .2s;
   z-index: 1;
-}
+} */
 
 #python-img {
   transition: transform .2s;
@@ -646,10 +646,10 @@ span{
   z-index: 2;
 } */
 
-#mysql-img:hover {
+/* #mysql-img:hover {
   transform: scale(2);
   z-index: 2;
-}
+} */
 
 #python-img:hover {
   transform: scale(2);
