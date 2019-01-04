@@ -16,229 +16,323 @@
     <script src="/script.js" defer></script>
 
     <!--   font links   -->
-     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans"
+      rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous">
 
   </head>
+
   <body>
 
-<!--    page wrapper  -->
-     <div id="page-wrapper" >
+    <!--    page wrapper  -->
+    <div id="page-wrapper" >
 
-<!-- INTRO -->
-       <section class="intro">
+        <!-- INTRO -->
+        <section class="intro">
 
-         <h1 id="myName">
-           Rajasri Velasoor Rajkumar
-         </h1>
+          <h1 id="myName">
+            Rajasri Velasoor Rajkumar
+          </h1>
 
+        </section> <!-- end intro section -->
 
+        <!--    HEADER     -->
 
-       </section> <!-- end intro section -->
+        <div style="height:80px">
 
+          <section id="header">
 
+            <div id="header-div">
 
-<!--    HEADER     -->
+              <div id="icon-wrapper">
 
+                <div id="dropdown-icon">
 
-       <div style="height:80px">
-       <section id="header">
+                  <i class="fas fa-bars" onclick="openNav()"></i>
 
-         <div id="header-div">
+                </div> <!-- end dropdown icon -->
 
+              </div> <!-- icon wrapper -->
 
-         <div id="icon-wrapper">
-          <div id="dropdown-icon">
-          <i class="fas fa-bars" onclick="openNav()"></i>
-         </div> <!-- end dropdown icon -->
-         </div> <!-- icon wrapper -->
-          </div> <!-- end header div -->
+            </div> <!-- end header div -->
 
+            <div style="z-index:3000; position:absolute; right:0;">
 
-       <div style="z-index:3000; position:absolute; right:0;">
+              <div id="mySidenav" class="sidenav" style="z-index:1000;">
 
+                <a href="#about" id="aboutBtn">About Me</a>
+                <a href="#experience" id="experienceBtn">Experience</a>
+                <a href="#languages" id="languagesBtn">Skills</a>
+                <a href="#projects" id="projectBtn">Projects</a>
+                <a href="#resume" id="resumeBtn" onclick="scroll()">Resume</a>
 
-       <div id="mySidenav" class="sidenav" style="z-index:1000;">
+              </div> <!-- end side nav -->
 
-              <a href="#about" id="aboutBtn">About Me</a>
-              <a href="#experience" id="experienceBtn">Experience</a>
-              <a href="#languages" id="languagesBtn">Skills</a>
-              <a href="#projects" id="projectBtn">Projects</a>
-              <a href="#resume" id="resumeBtn" onclick="scroll()">Resume</a>
+            </div> <!-- end unnamed div tag 1 -->
 
-            </div> <!-- end side nav -->
-         </div> <!-- end unnamed div tag 1 -->
-        </section> <!-- end header section -->
-    </div> <!-- end unnamed div tag 2 -->
+          </section> <!-- end header section -->
 
+        </div> <!-- end unnamed div tag 2 -->
 
+        <!-- ABOUT -->
+        <section id="about">
 
+          <div id="about-content">
 
-       <!-- ABOUT -->
-       <section id="about">
+            <h1 id="about-header">
+              Hello, World
+              <hr id="about-hr">
+            </h1>
 
-        <div id="about-content">
-         <h1 id="about-header">
-        Hello, World
-        <hr id="about-hr">
-         </h1>
+            <p id="about-text">
 
-          <p id="about-text">
+              I am a sophomore at Scripps College and am currently majoring
+              in computer science through Harvey Mudd College and minoring
+              in mathematics.
+              <br><br>
+              As a CS major and a student at a womens college, I am passionate
+              about equalizing the platform between men and women in computer
+              science. I am an active member of the Scripps Code club and
+              thoroughly enjoyed my time as a teaching assistant for Girls Who
+              Code, a non-profit organization dedicated to bringing more women
+              into technology.
+              <br> <br>
+              I also helped plan the 5C hackathon by reaching out to different
+              companies to get sponsors, managing and allocating the budget,
+              and coordinating the event logistics for the night of the
+              hackathon.
+              <br><br>
+              When I'm not in front of a computer screen, you'll probably find
+              me jamming with my a capella group or planning my next big trip.
+            </p> <!-- end about text -->
 
-           I am a sophomore at Scripps College and am currently majoring in computer science through Harvey Mudd College and minoring in mathematics.
-          <br><br>
+          </div> <!-- end about content -->
 
-        As a CS major and a student at a womens college, I am passionate about equalizing the platform between men and women in computer science. I am an
-        active member of the Scripps Code club and thoroughly enjoyed my time as a teaching assistant for Girls Who Code, a non-profit organization dedicated
-        to bringing more women into technology.
-        <br> <br>
-          I also helped plan the 5C hackathon by reaching out to different companies to get sponsors, managing and allocating
-        the budget, and coordinating the event logistics for the night of the hackathon.
-         <br><br>
+          <div id="about-image">
 
-        When I'm not in front of a computer screen, you'll probably find me jamming with my a capella group or planning my next big trip.
-         </p> <!-- end about text -->
-
-         </div> <!-- end about content -->
-
-         <div id="about-image">
-
-         <ul id="slides">
-          <li class="slide showing"><img src="https://image.ibb.co/mDLXGy/harveymudd.png" alt="harveymudd"></li>
-          <li class="slide"><img class="abt" src="https://image.ibb.co/da8Dbo/scripps.png" alt="scripps"></li>
-          <li class="slide"><img class="abt" src="https://preview.ibb.co/dJoPhT/coding.jpg" alt="coding"></li>
-          <li class="slide"><img class="abt" src="https://image.ibb.co/km9KGo/music.jpg" alt="music"></li>
-
-        </ul>
+            <ul id="slides">
+              <li class="slide showing">
+                <img src="https://image.ibb.co/mDLXGy/harveymudd.png"
+                  alt="harveymudd">
+              </li>
+              <li class="slide">
+                <img class="abt" src="https://image.ibb.co/da8Dbo/scripps.png"
+                  alt="scripps">
+              </li>
+              <li class="slide">
+                <img class="abt" src="https://preview.ibb.co/dJoPhT/coding.jpg"
+                  alt="coding">
+              </li>
+              <li class="slide">
+                <img class="abt" src="https://image.ibb.co/km9KGo/music.jpg"
+                  alt="music">
+              </li>
+            </ul>
 
           </div> <!-- end about image -->
-       </section> <!-- end about section -->
+        </section> <!-- end about section -->
 
-       <!-- PROFESSIONAL EXPERIENCE -->
+        <!-- PROFESSIONAL EXPERIENCE -->
 
-       <section id="experience">
-        <h1 id="exp-header">
-        Professional Experience
-         </h1>
-         <hr id="exp-hr" align="center">
+        <section id="experience">
 
-<!--     Timeline     -->
-         <ul class="timeline">
+          <h1 id="exp-header">
+            Professional Experience
+          </h1>
 
-	<!-- Item 1 -->
-	<li>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="flag">Girls Who Code teaching assistant</span>
-				<span class="time-wrapper"><span class="time">Jun. - Jul. 2018</span></span>
-			</div>
-			<div class="desc"> Co-taught the Introduction to Computer Science (in scratch) and Web Design and Development (in HTML, CSS, and JavaScript) courses
-         and effectively addressed students’ challenges and questions, so as to ensure all students were engaged and actively learning course material.</div>
-		</div>
-	</li>
+          <hr id="exp-hr" align="center">
 
-	<!-- Item 2 -->
-	<li>
-		<div class="direction-l">
-			<div class="flag-wrapper">
-				<span class="flag">Calculus 3 Grader</span>
-				<span class="time-wrapper"><span class="time">Jan. - May 2018</span></span>
-			</div>
-			<div class="desc">Evaluated multivariable and vector calculus problems by level of difficulty in order to assign point values to the problems and graded homework problems based on this point value system.</div>
-		</div>
-	</li>
+          <!--     Timeline     -->
 
-	<!-- Item 3 -->
-	<li>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="flag">Math Tutor</span>
-				<span class="time-wrapper"><span class="time">2014 - 2016</span></span>
-			</div>
-			<div class="desc">Scholastically mentored my peers and tutored them in Algebra 2 and Pre-Calculus on a weekly basis.</div>
-		</div>
-	</li>
+          <ul class="timeline">
 
-</ul>
+            <!-- Item 1 -->
 
+            <li>
 
-       </section> <!-- end experience section -->
+              <div class="direction-r">
 
-       <!-- lANGUAGES -->
+                <div class="flag-wrapper">
 
-       <section id="languages">
+                  <span class="flag">Girls Who Code teaching assistant</span>
+                  <span class="time-wrapper">
+                    <span class="time">Jun. - Jul. 2018</span>
+                  </span>
 
+                </div> <!-- end flag wrapper -->
 
+                <div class="desc">
+                  Co-taught the Introduction to Computer Science (in scratch)
+                  and Web Design and Development (in HTML, CSS, and
+                  JavaScript) courses and effectively addressed students’
+                  challenges and questions, so as to ensure all students were
+                  engaged and actively learning course material.
+                </div> <!-- end desc -->
 
-        <h1 id="lang-head">
-          Technical Skills
-          <hr id="lang-hr">
-        </h1>
+              </div> <!-- end direction-r -->
 
-        <div id="languages-img">
-        <img src="https://image.ibb.co/itV9Go/python.png" alt="python" id="python-img">
-        <img src="https://preview.ibb.co/kWc0NT/java.jpg" alt="java" id="java-img">
-        <img src="https://preview.ibb.co/nibS2T/htmlandcss.png" alt="htmlandcss" id="hc-img">
-        <img src="https://image.ibb.co/bBp3bo/javascript.png" alt="javascript" id="js-img">
-        <img src="https://preview.ibb.co/d5PVNT/cpp.png" alt="c++" id="cpp-img">
-	<img src="https://i.ibb.co/c82dGkV/mysql-logo.jpg" alt="mysql" id="mysql-img">
-	<img src="https://i.ibb.co/Ld90V4s/unix-logo-22.png" alt="unix" id="unix-img">
-	<img src="https://i.ibb.co/Cv0HD48/linux.jpg" alt="linux" id="linux-img">
-	<img src="https://i.ibb.co/Qp0St8Y/Git.png" alt="Git" id="git-img">
-	<img src="https://i.ibb.co/c2yMjVv/GitHub.png" alt="GitHub" id="github-img">
-      </div> <!-- end languages image -->
+            </li> <!-- end item 1-->
 
+            <!-- Item 2 -->
 
-       </section> <!-- end languages section -->
+            <li>
 
-       <section id="projects">
- <h1 id="project-head">
-   Projects
+              <div class="direction-l">
 
+                <div class="flag-wrapper">
+                  <span class="flag">Calculus 3 Grader</span>
+                  <span class="time-wrapper">
+                    span class="time">Jan. - May 2018</span>
+                  </span>
+                </div> <!-- end flag wrapper -->
 
- </h1>
-  <hr id="project-hr">
+                <div class="desc">
+                  Evaluated multivariable and vector calculus problems by
+                  level of difficulty in order to assign point values to
+                  the problems and graded homework problems based on
+                  this point value system.
+                </div> <!-- desc -->
 
-<div id="project-content">
+              </div> <!-- direction-1 -->
 
-  <div class="project-text">
-    <h4>
+            </li> <!-- end item 2 -->
 
-      Portfolio Website
-    </h4>
-    <p>
-    I worked over the summer of 2018 to create a website summarizing my resume. This prject was
-     a vehicle for me to explore different features of JavaScript, HTML, and CSS. To check out
-      the code, click <a target="_blank" href="https://github.com/Raji-Rajkumar/raji-rajkumar.github.io"> here!</a>
-  </p>
-  </div>
+            <!-- Item 3 -->
+            <li>
 
-  <div class="project-text">
-    <h4>
-      Snake Game
-    </h4>
+              <div class="direction-r">
 
-    <p>
-      I used Java to create a game of snake where the user can move a snake along the board to collect more “food”.
-      Highlights: My game had an AI mode where the snake moved by itself; for this mode, I used breadth first search
-      and queues to allow the snake to find the nearest “food” tile. To check out the code, email me; my email id is
-      available on my resume.
-    </p>
-  </div>
+                <div class="flag-wrapper">
+                  <span class="flag">Math Tutor</span>
+                  <span class="time-wrapper">
+                    <span class="time">2014 - 2016</span>
+                  </span>
+                </div> <!-- end flag-wrapper-->
 
+                <div class="desc">
+                  Scholastically mentored my peers and tutored them in
+                  Algebra 2 and Pre-Calculus on a weekly basis.
+                </div> <!-- end desc -->
 
-  </div> <!-- end project text -->
+              </div> <!-- end direction r -->
 
-</section> <!-- end project section -->
+            </li> <!-- item 3-->
 
-       <section id="resume">
-         <p>
-           Resume <a target="_blank" href="https://cdn.glitch.com/600ae873-8341-49d5-84ac-73c6c3bcd60d%2FResume.pdf?1546549560488"> <i class="far fa-file-pdf"></i></a>
-         </p>
-       </section>
+        </ul> <!-- end timeline -->
+
+        </section> <!-- end experience section -->
+
+        <!-- lANGUAGES -->
+
+        <section id="languages">
+
+          <h1 id="lang-head">
+            Technical Skills
+            <hr id="lang-hr">
+          </h1>
+
+          <div id="languages-img">
+
+            <img src="https://image.ibb.co/itV9Go/python.png"
+              alt="python" id="python-img">
+            <img src="https://preview.ibb.co/kWc0NT/java.jpg"
+              alt="java" id="java-img">
+            <img src="https://preview.ibb.co/nibS2T/htmlandcss.png"
+              alt="htmlandcss" id="hc-img">
+            <img src="https://image.ibb.co/bBp3bo/javascript.png"
+              alt="javascript" id="js-img">
+            <img src="https://preview.ibb.co/d5PVNT/cpp.png"
+              alt="c++" id="cpp-img">
+            <img src="https://i.ibb.co/c82dGkV/mysql-logo.jpg"
+              alt="mysql" id="mysql-img">
+            <img src="https://i.ibb.co/Ld90V4s/unix-logo-22.png"
+              alt="unix" id="unix-img">
+            <img src="https://i.ibb.co/Cv0HD48/linux.jpg"
+              alt="linux" id="linux-img">
+            <img src="https://i.ibb.co/Qp0St8Y/Git.png"
+              alt="Git" id="git-img">
+            <img src="https://i.ibb.co/c2yMjVv/GitHub.png"
+              alt="GitHub" id="github-img">
+
+          </div> <!-- end languages image -->
+
+        </section> <!-- end languages section -->
+
+        <!-- PROJECTS -->
+
+        <section id="projects">
+
+          <h1 id="project-head">
+            Projects
+          </h1>
+          <hr id="project-hr">
+
+          <div id="project-content">
+
+            <div class="project-text">
+
+              <h4>
+                Portfolio Website
+              </h4>
+
+              <p>
+                I worked over the summer of 2018 to create a website
+                summarizing my resume. This project was a vehicle for me to
+                explore different features of JavaScript, HTML, and CSS.
+                To check out the code, click
+                <a target="_blank"
+                  href="https://github.com/Raji-Rajkumar/raji-rajkumar.github.io">
+                  here!
+                </a>
+              </p> <!-- end unnamed p tag -->
+
+            </div> <!-- end project-text -->
+
+            <div class="project-text">
+
+              <h4>
+                Snake Game
+              </h4>
+
+              <p>
+                I used Java to create a game of snake where the user can
+                move a snake along the board to collect more “food”.
+                Highlights: My game had an AI mode where the snake moved by
+                itself; for this mode, I used breadth first search
+                and queues to allow the snake to find the nearest “food”
+                tile. To check out the code, email me; my email id is
+                available on my resume.
+              </p>
+
+            </div> <!-- end project-text -->
+
+          </div> <!-- end project content -->
+
+        </section> <!-- end project section -->
+
+        <!-- RESUME -->
+        <section id="resume">
+
+          <p>
+            Resume
+
+            <a target="_blank" 
+              href="https://cdn.glitch.com/600ae873-8341-49d5-84ac-73c6c3bcd60d%2FResume.pdf?1546549560488">
+              <i class="far fa-file-pdf">
+              </i>
+            </a>
+
+          </p>
+
+        </section> <!-- end section resume -->
+
     </div> <!-- end page wrapper -->
 
   </body>
+
 </html>
