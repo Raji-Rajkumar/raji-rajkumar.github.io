@@ -179,7 +179,8 @@ background-color:rgba(0,0,0,0.3);
 ***************/
 
 #about {
-  background-color:  #262626;
+/*   background-color:  #262626; */
+  background-color: red;
   background-size: cover;
   height: 100%;
   width: 100%;
