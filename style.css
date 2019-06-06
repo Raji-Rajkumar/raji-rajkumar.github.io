@@ -190,6 +190,10 @@ background-color:rgba(0,0,0,0.3);
 
 }
 
+#about-content {
+    overflow-y: scroll;
+}
+
 #about-header {
   color: white;
    font-family: 'Amatic SC', cursive;
