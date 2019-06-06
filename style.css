@@ -191,8 +191,9 @@ background-color:rgba(0,0,0,0.3);
 }
 
 #about-content {
-    height: 100%;
-    overflow-y: scroll;
+/*     height: 100%;
+    overflow-y: scroll; */
+	background-color: red;
 }
 
 #about-header {
