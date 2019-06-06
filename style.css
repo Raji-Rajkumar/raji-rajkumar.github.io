@@ -190,7 +190,8 @@ background-color:rgba(0,0,0,0.3);
 
 }
 
-#about {
+#about-content {
+    height: 100%;
     overflow-y: scroll;
 }
 
