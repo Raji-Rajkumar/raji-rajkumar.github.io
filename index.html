@@ -1,342 +1,290 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
-  <head>
-
-    <title>Rajasri Rajkumar</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-
-    <!--   font links   -->
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC"
-      rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans"
-      rel="stylesheet">
-    <link rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
-      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
-      crossorigin="anonymous">
-
-  </head>
-
-  <body>
-
-    <!--    page wrapper  -->
-    <div id="page-wrapper" >
-
-        <!-- INTRO -->
-        <section class="intro">
-
-          <h1 id="myName">
-            Rajasri Velasoor Rajkumar
-          </h1>
-
-        </section> <!-- end intro section -->
-
-        <!--    HEADER     -->
-
-        <div style="height:80px">
-
-          <section id="header">
-
-            <div id="header-div">
-
-              <div id="icon-wrapper">
-
-                <div id="dropdown-icon">
-
-                  <i class="fas fa-bars" onclick="openNav()"></i>
-
-                </div> <!-- end dropdown icon -->
-
-              </div> <!-- icon wrapper -->
-
-            </div> <!-- end header div -->
-
-            <div style="z-index:3000; position:absolute; right:0;">
-
-              <div id="mySidenav" class="sidenav" style="z-index:1000;">
-
-                <a href="#about" id="aboutBtn">About Me</a>
-                <a href="#experience" id="experienceBtn">Experience</a>
-                <a href="#languages" id="languagesBtn">Skills</a>
-                <a href="#projects" id="projectBtn">Projects</a>
-                <a href="#resume" id="resumeBtn" onclick="scroll()">Resume</a>
-
-              </div> <!-- end side nav -->
-
-            </div> <!-- end unnamed div tag 1 -->
-
-          </section> <!-- end header section -->
-
-        </div> <!-- end unnamed div tag 2 -->
-
-        <!-- ABOUT -->
-        <section id="about">
-
-          <div id="about-content">
-
-            <h1 id="about-header">
-              Hello, World
-              <hr id="about-hr">
-            </h1>
-
-            <p id="about-text">
-
-              I am a sophomore at Scripps College and am currently majoring
-              in computer science through Harvey Mudd College and minoring
-              in mathematics.
-              <br><br>
-              As a CS major and a student at a womens college, I am passionate
-              about equalizing the platform between men and women in computer
-              science. I am an active member of the Scripps Code club and
-              thoroughly enjoyed my time as a teaching assistant for Girls Who
-              Code, a non-profit organization dedicated to bringing more women
-              into technology.
-              <br> <br>
-              I also helped plan the 5C hackathon by reaching out to different
-              companies to get sponsors, managing and allocating the budget,
-              and coordinating the event logistics for the night of the
-              hackathon.
-              <br><br>
-              When I'm not in front of a computer screen, you'll probably find
-              me jamming with my a capella group or planning my next big trip.
-            </p> <!-- end about text -->
-
-          </div> <!-- end about content -->
-
-          <div id="about-image">
-
-            <ul id="slides">
-              <li class="slide showing">
-                <img src="https://image.ibb.co/mDLXGy/harveymudd.png"
-                  alt="harveymudd">
-              </li>
-              <li class="slide">
-                <img class="abt" src="https://image.ibb.co/da8Dbo/scripps.png"
-                  alt="scripps">
-              </li>
-              <li class="slide">
-                <img class="abt" src="https://preview.ibb.co/dJoPhT/coding.jpg"
-                  alt="coding">
-              </li>
-              <li class="slide">
-                <img class="abt" src="https://image.ibb.co/km9KGo/music.jpg"
-                  alt="music">
-              </li>
-            </ul>
-
-          </div> <!-- end about image -->
-        </section> <!-- end about section -->
-
-        <!-- PROFESSIONAL EXPERIENCE -->
-
-        <section id="experience">
-
-          <h1 id="exp-header">
-            Professional Experience
-          </h1>
-
-          <hr id="exp-hr" align="center">
-
-          <!--     Timeline     -->
-
-          <ul class="timeline">
-
-            <!-- Item 1 -->
-
-            <li>
-
-              <div class="direction-r">
-
-                <div class="flag-wrapper">
-
-                  <span class="flag">Girls Who Code teaching assistant</span>
-                  <span class="time-wrapper">
-                    <span class="time">Jun. - Jul. 2018</span>
-                  </span>
-
-                </div> <!-- end flag wrapper -->
-
-                <div class="desc">
-                  Co-taught the Introduction to Computer Science (in scratch)
-                  and Web Design and Development (in HTML, CSS, and
-                  JavaScript) courses and effectively addressed students’
-                  challenges and questions, so as to ensure all students were
-                  engaged and actively learning course material.
-                </div> <!-- end desc -->
-
-              </div> <!-- end direction-r -->
-
-            </li> <!-- end item 1-->
-
-            <!-- Item 2 -->
-
-            <li>
-
-              <div class="direction-l">
-
-                <div class="flag-wrapper">
-                  <span class="flag">Calculus 3 Grader</span>
-                  <span class="time-wrapper">
-                    <span class="time">Jan. - May 2018</span>
-                  </span>
-                </div> <!-- end flag wrapper -->
-
-                <div class="desc">
-                  Evaluated multivariable and vector calculus problems by
-                  level of difficulty in order to assign point values to
-                  the problems and graded homework problems based on
-                  this point value system.
-                </div> <!-- desc -->
-
-              </div> <!-- direction-1 -->
-
-            </li> <!-- end item 2 -->
-
-            <!-- Item 3 -->
-            <li>
-
-              <div class="direction-r">
-
-                <div class="flag-wrapper">
-                  <span class="flag">Math Tutor</span>
-                  <span class="time-wrapper">
-                    <span class="time">2014 - 2016</span>
-                  </span>
-                </div> <!-- end flag-wrapper-->
-
-                <div class="desc">
-                  Scholastically mentored my peers and tutored them in
-                  Algebra 2 and Pre-Calculus on a weekly basis.
-                </div> <!-- end desc -->
-
-              </div> <!-- end direction r -->
-
-            </li> <!-- item 3-->
-
-        </ul> <!-- end timeline -->
-
-        </section> <!-- end experience section -->
-
-        <!-- lANGUAGES -->
-
-        <section id="languages">
-
-          <h1 id="lang-head">
-            Technical Skills
-            <hr id="lang-hr">
-          </h1>
-
-          <div id="languages-img">
-
-            <img src="https://image.ibb.co/itV9Go/python.png"
-              alt="python" id="python-img">
-            <img src="https://preview.ibb.co/kWc0NT/java.jpg"
-              alt="java" id="java-img">
-            <img src="https://preview.ibb.co/nibS2T/htmlandcss.png"
-              alt="htmlandcss" id="hc-img">
-            <img src="https://image.ibb.co/bBp3bo/javascript.png"
-              alt="javascript" id="js-img">
-            <img src="https://preview.ibb.co/d5PVNT/cpp.png"
-              alt="c++" id="cpp-img">
-            <img src="https://i.ibb.co/c82dGkV/mysql-logo.jpg"
-              alt="mysql" id="mysql-img">
-            <img src="https://i.ibb.co/Ld90V4s/unix-logo-22.png"
-              alt="unix" id="unix-img">
-            <img src="https://i.ibb.co/Cv0HD48/linux.jpg"
-              alt="linux" id="linux-img">
-            <img src="https://i.ibb.co/Qp0St8Y/Git.png"
-              alt="Git" id="git-img">
-            <img src="https://i.ibb.co/c2yMjVv/GitHub.png"
-              alt="GitHub" id="github-img">
-
-          </div> <!-- end languages image -->
-
-        </section> <!-- end languages section -->
-
-        <!-- PROJECTS -->
-
-        <section id="projects">
-
-          <h1 id="project-head">
-            Projects
-          </h1>
-          <hr id="project-hr">
-
-          <div id="project-content">
-
-            <div class="project-text">
-
-              <h4>
-                Portfolio Website
-              </h4>
-
-              <p>
-                I worked over the summer of 2018 to create a website
-                summarizing my resume. This project was a vehicle for me to
-                explore different features of JavaScript, HTML, and CSS.
-                To check out the code, click
-                <a target="_blank"
-                  href="https://github.com/Raji-Rajkumar/raji-rajkumar.github.io">
-                  here!
-                </a>
-              </p> <!-- end unnamed p tag -->
-
-            </div> <!-- end project-text -->
-
-            <div class="project-text">
-
-              <h4>
-                Snake Game
-              </h4>
-
-              <p>
-                I used Java to create a game of snake where the user can
-                move a snake along the board to collect more “food”.
-                Highlights: My game had an AI mode where the snake moved by
-                itself; for this mode, I used breadth first search
-                and queues to allow the snake to find the nearest “food”
-                tile. To check out the code, email me; my email id is
-                available on my resume.
-              </p>
-
-            </div> <!-- end project-text -->
-
-          </div> <!-- end project content -->
-
-        </section> <!-- end project section -->
-
-        <!-- RESUME -->
-        <section id="resume">
-
-          <p>
-            Resume
-
-            <a target="_blank" 
-              href="https://cdn.glitch.com/600ae873-8341-49d5-84ac-73c6c3bcd60d%2FResume.pdf?1546549560488">
-              <i class="far fa-file-pdf">
-              </i>
-            </a>
-
-          </p>
-
-        </section> <!-- end section resume -->
-
-    </div> <!-- end page wrapper -->
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-  </body>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Rajasri Rajkumar</title>
+
+        <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+        <!-- Font Awesome JS -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+
+            <!-- Sidebar -->
+            <nav id="sidebar">
+                <div id="dismiss">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+                <div class="sidebar-header">
+                    <h3>Rajasri</h3>
+                    <h3>Rajkumar</h3>
+                </div>
+                
+                <ul class="list-unstyled components">
+                    
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#experience">Experience</a>
+                    </li>
+                </ul>
+            </nav>
+        
+            <!-- Page Content -->
+            <div id="content">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+        
+                            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                                <span>Menu</span>
+                            </button>
+                            <button class="btn collapse-btn d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-align-justify"></i>
+                            </button>
+        
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="nav navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Profile</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Blog</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <section id="about" name="about" class="mx-auto text-center">
+                        <h2 id="about-header">I'm an aspiring software engineer.</h2>
+                        <br>
+                        <div id="about-section" class="text-center">
+                            <p>As a curious being, I love exploring new technologies and learning new things. I hope to continue developing my skills and am always looking for opportunities to help me do so.</p>
+                        </div>
+                        
+                    </section>
+                    <section id="education" name="education" class="mx-auto">
+                        <div id="education-content">
+                            <h2 id="education-header"  class="text-center">Education</h2>
+                            <br>
+                            <div class="education-content">
+                                
+                                <div id="education-head">
+                                        <div>
+                                            <img src="./scripps.png" class="img-fluid rounded-circle" alt="scripps logo">
+                                        </div>
+                                        <div>
+                                            <p id="college-name">Scripps College</p>
+                                            <p class="sub-info">2017 - 2021</p>
+                                            <p class="sub-info">Major: Computer Science (Harvey Mudd)</p>
+                                            <p class="sub-info">Minor: Mathematics (Scripps)</p>
+                                        </div>
+                                </div>
+                                    
+                                <br>
+                                <div id="education-text" class="text-left">
+                                    
+                                    
+                                    <p id="coursework-title">Relevant Coursework</p>
+                                    <div id="coursework">
+                                        <div>
+                                            <p class="coursework-subtitle">ENROLLED</p>
+                                            <ul class="sub-coursework">
+                                                <li>
+                                                    Computer Systems
+                                                </li>
+                                                <li>
+                                                    Software Development
+                                                </li>
+                                                <li>
+                                                    Discrete Mathematics
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="coursework-subtitle">COMPLETED</p>
+                                            <ul class="sub-coursework">
+                                                <li>
+                                                    Number Theory and Cryptography
+                                                </li>
+                                                <li>
+                                                    Data Structures and Program Development
+                                                </li>
+                                                <li>
+                                                    Principles of Computer Science
+                                                </li>
+                                                <li>
+                                                    Introduction to Computer Science
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                      
+                        </div>
+                        
+                    </section>
+                    <section id="projects" name="projects" class="mx-auto text-center">
+                        <h2 id="projects-header">Projects</h2>
+                        <br>
+                        <div id="projects-content">
+                            <!-- <p>OFFICE OLYMPIC</p> -->
+                            <ul id="projects-list">
+                                <li>
+                                    
+                                    <p class="projects-subtitle">OFFICE OLYMPICS APP</p>
+                                    <div class="projects-list-content">
+                                        <div class="text-left">
+                                            <em>Designed and built a web-server application </em>with sessions and user authentication that supported over <em>25 concurrent users</em>. It allowed users to manage their transactions during an office betting event for charity. 
+                                        </div>
+                                        <div class="text-left">TODO: refactor application to use proper <em>architecture</em> </div>
+                                        <div class="projects-buttons">
+                                            
+                                            <button class="btn btn-outline-primary">Node.js</button> 
+                                            <button class="btn btn-outline-primary">CSS</button>
+                                            <button class="btn btn-outline-primary">EJS</button>
+                                            <button class="btn btn-outline-primary">Bootstrap</button>
+                                            <button class="btn btn-outline-primary">MySQL</button>
+                                            <button class="btn btn-outline-primary">Express.js</button>
+                                            
+                                        </div>
+                                    </div>
+
+                                   
+                                </li>
+                                <li>
+                                    
+                                    <p class="projects-subtitle">PERSONAL WEBSITE</p>
+                                    <div class="projects-list-content">
+                                        <div class="text-left">
+                                            Designed, built, and maintained code for a website that displays my portfolio as a vehicle to learn about web design and development.  
+                                        </div>
+                                        <div class="text-left">
+                                            TODO: restructure website to use <em>bootstrap</em> and add blog page detailing my experience building each project
+                                        </div>
+                                        <div class="projects-buttons">
+                                        
+                                            <button class="btn btn-outline-primary">CSS</button> 
+                                            <button class="btn btn-outline-primary">HTML</button>
+                                            <button class="btn btn-outline-primary">JavaScript</button>  
+                                        </div>
+                                           
+                                    </div>
+                                    
+                                </li>
+                                <li>
+                                    
+                                    <p class="projects-subtitle">SNAKE</p>
+                                    <div class="projects-list-content">
+                                        <div class="text-left">
+                                            Developed a game of snake where the user can move a snake along the board to collect more “food”. 
+                                        </div>
+                                        <div class="text-left">
+                                            Highlights: Implemented an <em>AI mode</em> where the snake moved by itself. The AI mode utilized <em>breadth first search</em> and <em>queues</em> to allow the snake to find the nearest “food” tile.
+                                        </div>
+                                        <div class="projects-buttons">
+                                            
+                                            <button class="btn btn-outline-primary">Java</button> 
+            
+                                                
+                                        </div>
+                                    </div>
+
+                                   
+                                    
+                                </li>
+                            </ul>
+                        </div>
+
+                    </section>
+                    <section id="experience" name="experience" class="text-center">
+                            <h2 id="experience-header">Professional Experience</h2>
+                            <div id="experience-content">
+                                <div class="row">
+                                    <div class="col-lg-7 mx-auto">
+                                        
+                                        <!-- Timeline -->
+                                        <ul class="timeline">
+                                            <li class="timeline-item ml-3 p-4">
+                                                <div class="timeline-arrow"></div>
+                                                <h2 class="h5 mb-0">Software Development Intern</h2>
+                                                <span class="small">
+                                                    <p class="medium">Consilio, LLC</p>
+                                                    <p>June 3, 2019 - Aug 9, 2019</p>
+                                                    <p>Monrovia, CA | Bangalore, India</p>
+                                                </span>
+                                                <p class="experience-text">
+                                                    Built proof of concept for session-based authentication for the Consilio Analytics web user interface using python (flask) and Elasticsearch <br> <br>
+                                                    Will work on an API that uses machine learning and natural language processing to extract PII from documents
+                                                        
+                                                </p>
+                                            </li>
+                                            <li class="timeline-item ml-3 p-4">
+                                                <div class="timeline-arrow"></div>
+                                                <h2 class="h5 mb-0">Teaching Assistant</h2>
+                                                <span class="small">
+                                                    <p class="medium">Girls Who Code</p>
+                                                    <p>June 2018 - July 2018</p>
+                                                    <p>Claremont, CA</p>
+                                                </span>
+                                                <p class="experience-text">Acted as a fulltime TA for the two-week introduction to computer science course and the two-week web design and development course<br><br>Co-lead lessons about core computer science concepts such as loops, conditionals, variables, and functions and languages such as Scratch, HTML, CSS, and JavaScript<br><br>Effectively addressed students’ challenges and questions, thereby helping them complete their daily projects and final capstone project</p>
+                                            </li>
+                                            <li class="timeline-item ml-3 p-4">
+                                                <div class="timeline-arrow"></div>
+                                                <h2 class="h5 mb-0">Multivariable and Vector Calculus Grader</h2>
+                                                <span class="small">
+                                                    <p class="medium">Claremont McKenna</p>
+                                                    <p>Jan 2018 - May 2018</p>
+                                                    <p>Claremont, CA</p>
+                                                </span>
+                                                <p class="experience-text">Evaluated multivariable and vector calculus problems by level of difficulty and assigned point values to the problems</p>
+                                            </li>
+                                            
+                                        </ul><!-- End -->
+                        
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+            </div>
+
+            <div class="overlay"></div>
+            
+        </div>  
+
+       <!-- jQuery CDN - Slim version (=without AJAX) -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script src="./script.js"></script>
+    </body>
 
 </html>
