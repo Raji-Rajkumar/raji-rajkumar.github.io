@@ -383,3 +383,20 @@ span p {
     top: 0;
     right: 0;
 }
+
+/* ---------------------------------------------------
+    FOOTER STYLE
+----------------------------------------------------- */
+#footer-content {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-flow: row wrap;
+}
+
+#footer-content a:hover {
+    color: #e1a87a;
+}
