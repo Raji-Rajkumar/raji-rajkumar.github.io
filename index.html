@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
         <!-- Font Awesome JS -->
+        <script src="https://kit.fontawesome.com/bd62806006.js"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
     </head>
@@ -55,24 +56,16 @@
             <!-- Page Content -->
             <div id="content">
                     <nav id="navbar" class="navbar navbar-expand-lg">
-                        <div class="container-fluid">
+                        <div class="container-fluid" id="brand-container">
         
                             <button type="button" id="sidebarCollapse" class="btn btn-info">
                                 <span>Menu</span>
                             </button>
-                            <button class="btn collapse-btn d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <i class="fas fa-align-justify"></i>
-                            </button>
-        
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="nav navbar-nav ml-auto">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">Profile</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Blog</a>
-                                    </li>
-                                </ul>
+                            
+                            <p id="navbar-brand">Rajasri Rajkumar</p>
+
+                            <div>
+
                             </div>
                         </div>
                     </nav>
@@ -168,7 +161,6 @@
                                             <button class="btn btn-outline-primary">EJS</button>
                                             <button class="btn btn-outline-primary">Bootstrap</button>
                                             <button class="btn btn-outline-primary">MySQL</button>
-                                            <button class="btn btn-outline-primary">Express.js</button>
                                             
                                         </div>
                                     </div>
@@ -183,13 +175,14 @@
                                             Designed, built, and maintained code for a website that displays my portfolio as a vehicle to learn about web design and development.  
                                         </div>
                                         <div class="text-left">
-                                            TODO: restructure website to use <em>bootstrap</em> and add blog page detailing my experience building each project
+                                            TODO: Add blog page detailing my experience building each project
                                         </div>
                                         <div class="projects-buttons">
                                         
                                             <button class="btn btn-outline-primary">CSS</button> 
                                             <button class="btn btn-outline-primary">HTML</button>
-                                            <button class="btn btn-outline-primary">JavaScript</button>  
+                                            <button class="btn btn-outline-primary">JavaScript</button> 
+                                            <button class="btn btn-outline-primary">Bootstrap</button> 
                                         </div>
                                            
                                     </div>
@@ -234,11 +227,11 @@
                                                 <span class="small">
                                                     <p class="medium">Consilio, LLC</p>
                                                     <p>June 3, 2019 - Aug 9, 2019</p>
-                                                    <p>Monrovia, CA | Bangalore, India</p>
+                                                    <p>Monrovia, CA</p>
                                                 </span>
                                                 <p class="experience-text">
                                                     Built proof of concept for session-based authentication for the Consilio Analytics web user interface using python (flask) and Elasticsearch <br> <br>
-                                                    Will work on an API that uses machine learning and natural language processing to extract PII from documents
+                                                    Working on an API that uses a machine learning classifier to extract PII from documents
                                                         
                                                 </p>
                                             </li>
@@ -269,13 +262,17 @@
                                 </div>
                             </div>
                     </section>
+
                     <footer class="page-footer small">
                         <div id="footer-content">
+                            <p></p>
                             <p><i class="fab fa-github"></i><span><a href="https://github.com/raji-rajkumar"> GITHUB</a></span></p>
                             <p><i class="fab fa-linkedin"></i><span><a href="https://www.linkedin.com/in/rajasri-rajkumar-58240a171/"> LINKEDIN</a></span></p>
+                            <p></p>
                             <!-- <p><i class="far fa-envelope"></i><span><a href=""> CONTACT ME</a></span></p> -->
                         </div>
                     </footer>
+                    
             </div>
 
             <div class="overlay"></div>
