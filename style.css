@@ -3,6 +3,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Muli:300|Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap');
 body {
     /* font-family: 'Source Serif Pro', 'Muli'; */
     font-family: 'Montserrat';
@@ -134,20 +135,26 @@ a:focus {
     border: none;
 }
 
+#brand-container {
+    display: flex;
+    justify-content: space-between;
+} 
+
+#navbar-brand {
+    color: white;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family: 'Playfair Display';
+}
+
 #sidebarCollapse {
     background-color: black;
     border-color: #e1a87a;
     color: #e1a87a;
+    
 
 }
 
-.nav-item {
-    text-align: right;
-}
-.collapse-btn {
-    color: white;
-    background-color: black;
-}
 /* ---------------------------------------------------
     ABOUT STYLE
 ----------------------------------------------------- */
@@ -158,7 +165,7 @@ a:focus {
 }
 
 #about-header {
-    font-family: 'Source Serif Pro';
+    font-family: 'Playfair Display';
     /* color: #d48341; */
    
 }
@@ -183,7 +190,7 @@ a:focus {
 }
 
 #education-header, #college-name, #coursework-title{
-    font-family: 'Source Serif Pro';
+    font-family: 'Playfair Display';
 
 }
 
@@ -257,7 +264,7 @@ a:focus {
 }
 
 #projects-header {
-    font-family: 'Source Serif Pro';
+    font-family: 'Playfair Display';
     color: white;
     padding-bottom: 16px;
 }
@@ -329,7 +336,7 @@ a:focus {
 }
 
 #experience-header {
-    font-family: 'Source Serif Pro';
+    font-family: 'Playfair Display';
 }
 
 /* Timeline holder */
@@ -370,20 +377,6 @@ span p {
     color:#e1a87a;
 }
 
-
-/* ---------------------------------------------------
-    CONTENT STYLE
------------------------------------------------------ */
-
-#content {
-    width: 100%;
-    min-height: 100vh;
-    transition: all 0.3s;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
 /* ---------------------------------------------------
     FOOTER STYLE
 ----------------------------------------------------- */
@@ -399,4 +392,18 @@ span p {
 
 #footer-content a:hover {
     color: #e1a87a;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
