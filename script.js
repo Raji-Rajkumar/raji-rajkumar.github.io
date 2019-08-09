@@ -18,25 +18,26 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-  
-    'use strict';
     
-     var c, currentScrollTop = 0,
-         navbar = $('nav');
-  
-     $(window).scroll(function () {
-        var a = $(window).scrollTop();
-        var b = navbar.height();
-       
-        currentScrollTop = a;
-       
-        if (c < currentScrollTop && a > 0) {
-            $('.navbar').fadeOut();
-        } else if (c > currentScrollTop && !(a <= 0)) {
-          $('.navbar').fadeIn();
-        }
-        c = currentScrollTop;
-    });
-    
+    if($(window).width() > 768){
+        'use strict';
+
+        var c, currentScrollTop = 0,
+            navbar = $('nav');
+
+        $(window).scroll(function () {
+            var a = $(window).scrollTop();
+            var b = navbar.height();
+        
+            currentScrollTop = a;
+        
+            if (c < currentScrollTop && a > 0) {
+                $('.navbar').fadeOut();
+            } else if (c > currentScrollTop && !(a <= 0)) {
+            $('.navbar').fadeIn();
+            }
+            c = currentScrollTop;
+        });
+    }
   });
 
