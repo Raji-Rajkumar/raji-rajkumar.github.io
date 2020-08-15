@@ -352,6 +352,14 @@ li.timeline-item {
     color: white;
 }
 
+.small {
+    font-size: 90%;
+}
+
+.h5 {
+    margin-bottom: 8px;
+}
+
 /* Timeline item arrow */
 .timeline-arrow {
     border-top: 0.5rem solid transparent;
@@ -369,6 +377,7 @@ li.timeline-item {
 
 .experience-text {
     margin-top: 16px;
+    text-align: justify;
 }
 
 span p {
