@@ -298,8 +298,18 @@ a:focus {
 }
 
 .btn-outline-primary {
-    color: #e1a87a;
+    color: #e1a87a !important;
     border-color: #e1a87a;
+}
+
+.btn-outline-primary:active, .btn-outline-primary:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #1B1B1B !important;
+    border-color: #e1a87a !important;
+
+
+
 }
 
 .btn-outline-primary:hover {
